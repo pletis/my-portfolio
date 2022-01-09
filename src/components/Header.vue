@@ -26,7 +26,7 @@
       <div class="bg"></div>
       <div class="info">
         <h1>박동현</h1>
-        <h1>[웹 개발자 포트폴리오]</h1>
+        <h1>웹 개발자 포트폴리오</h1>
         <h2>안녕하세요</h2>
         <h2>꾸준하고 열정적인 저만의 페이스로</h2>
         <h2>
@@ -65,7 +65,9 @@ export default {
 }
 #navbar div {
   display: inline-block;
-  width: 60%;
+  width: 100%;
+  max-width: 71.25rem;
+  margin: 0 auto;
 }
 
 #logo {
@@ -135,18 +137,18 @@ ul li a:hover {
 }
 
 #hero_header .info h1 {
-  font-size: 36px;
+  font-size: 60px;
   margin: 0;
   margin-bottom: 13px;
   color: white;
-  font-weight: 400;
+  font-weight: 800;
 }
 
 #hero_header .info h2 {
-  font-size: 16px;
+  font-size: 20px;
   margin: 0;
   margin-bottom: 10px;
   color: white;
-  font-weight: 400;
+  font-weight: 500;
 }
 </style>
